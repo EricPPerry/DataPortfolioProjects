@@ -1,3 +1,8 @@
+/*
+Exploration of daily logs for infection/death rates from Covid 19 across the world. 
+Skills used in SQL (via Microsoft SQL Server Management): Basic/Advanced joins, Temp Tables, CTEs, aggregate functions, windows functions, changing/converting data types and creating views
+*/
+
 --General SELECT statement to make sure our table CovidDeaths was imported correctly
 --Noting that there are instances where the continent is listed as the location/country, which can be filtered out by recognizing that those instances have continent = NULL
 SELECT *
